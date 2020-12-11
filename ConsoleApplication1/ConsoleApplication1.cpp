@@ -9,7 +9,7 @@ public:
 	int a;
 	int b;
 };
-
+//git is starting to get annoying :DDDDDDDDDDDDDD
 int main() {
 	bool calcOn = true;
 	int choice;
