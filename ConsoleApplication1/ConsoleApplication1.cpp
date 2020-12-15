@@ -11,7 +11,11 @@ public:
 	int a;
 	int b;
 };
-//git is starting to get annoying :DDDDDDDDDDDDDD
+
+clearScreen() {
+cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n";
+};
+
 int main() {
 	bool calcOn = true; // I don't know what this
 	int choice;         //
@@ -40,9 +44,9 @@ int main() {
 			cin >> mul.a;
 			cout << "Enter the second number\n";
 			cin >> mul.b;
-			cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n";
+			clearScreen();
 			int mulAns = mul.a * mul.b;
-			cout << "The answer is: " << mulAns << "\n\n\n";
+			cout << mul.a << " * " << mul.b << " = " << mulAns << "\n\n\n";
 			break;
 		}
 		case 2: { //Division section
@@ -50,9 +54,9 @@ int main() {
 			cin >> div.a;
 			cout << "Enter the second number\n";
 			cin >> div.b;
-			cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n";
+			clearScreen();
 			int divAns = div.a / div.b;
-			cout << "The answer is: " << divAns << "\n\n\n";
+			cout << div.a << " / " << div.b << " = " << divAns << "\n\n\n";
 			break;
 		}
 		case 3: { //Addition section
@@ -60,9 +64,9 @@ int main() {
 			cin >> add.a;
 			cout << "Enter the second number\n";
 			cin >> add.b;
-			cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n";
+			clearScreen();
 			int addAns = add.a + add.b;
-			cout << "The answer is: " << addAns << "\n\n\n";
+			cout << add.a << " + " << add.b << " = " << addAns << "\n\n\n";
 			break;
 		}
 		case 4: { //Subtraction section
@@ -70,9 +74,9 @@ int main() {
 			cin >> sub.a;
 			cout << "Enter the second number\n";
 			cin >> sub.b;
-			cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n";
+			clearScreen();
 			int subAns = sub.a - sub.b;
-			cout << "The answer is: " << subAns << "\n\n\n";
+			cout << sub.a << " - " << sub.b << " = " << subAns << "\n\n\n";
 			break;
 		}//Garbage Pythagorean Theorem Calculator
 		case 5: {
@@ -80,7 +84,7 @@ int main() {
 			cin >> pyth.a;
 			cout << "Enter the second number\n";
 			cin >> pyth.b;
-			cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n";
+			clearScreen();
 			double addPyth = pow(pyth.a, 2) + pow(pyth.b, 2);
 			double root = sqrt(addPyth);
 			cout << "The answer is: " << root << "\n\n\n";
